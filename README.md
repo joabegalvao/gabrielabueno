@@ -110,3 +110,9 @@ tools/optimize-images.py
 tools/render-compartilhamento.js
 materiais-de-origem/   originais do cliente (fora do git)
 ```
+
+## Repositório
+
+- GitHub: `git@github.com:joabegalvao/gabrielabueno.git` (branch `main`)
+- Portfólio: publicado também em `gostoudosite.com.br/gabrielabueno/` (o Dockerfile do gostoudosite clona este repositório na pasta `gabrielabueno`)
+- Os originais do cliente ficam só na pasta local `materiais-de-origem/`, fora do git
