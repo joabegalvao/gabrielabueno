@@ -20,8 +20,8 @@ const out = path.join(root, 'assets/img');
 
 const fontFace = (family, file, style = 'normal') => `@font-face { font-family: "${family}"; src: url("file://${path.join(root, 'assets/fonts', file)}") format("woff2"); font-style: ${style}; font-weight: 300 700; }`;
 const fonts = [
-  fontFace('Bodoni Moda', 'bodoni-moda-normal-latin.woff2'),
-  fontFace('Bodoni Moda', 'bodoni-moda-italic-latin.woff2', 'italic'),
+  fontFace('Playfair Display', 'playfair-display-normal-latin.woff2'),
+  fontFace('Playfair Display', 'playfair-display-italic-latin.woff2', 'italic'),
   fontFace('Jost', 'jost-normal-latin.woff2'),
 ].join('\n');
 
@@ -32,9 +32,9 @@ const html = `<div style="width:1200px;height:630px;display:grid;grid-template-c
   <div style="display:flex;flex-direction:column;justify-content:center;padding:0 64px">
     <div style="display:flex;align-items:center;gap:16px">
       <img src="file://${path.join(out, 'monograma-160.png')}" style="width:56px;height:auto" alt="">
-      <div style="line-height:1.1"><div style="font-family:'Bodoni Moda',serif;font-size:24px;letter-spacing:.04em">Gabriela Bueno</div><div style="margin-top:4px;font-size:11px;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:#7a5416">Hair Colorist</div></div>
+      <div style="line-height:1.1"><div style="font-family:'Playfair Display',serif;font-size:24px;letter-spacing:.04em">Gabriela Bueno</div><div style="margin-top:4px;font-size:11px;font-weight:500;letter-spacing:.28em;text-transform:uppercase;color:#7a5416">Hair Colorist</div></div>
     </div>
-    <div style="margin-top:44px;font-family:'Bodoni Moda',serif;font-size:56px;line-height:1.04;letter-spacing:-.01em">Cor que parece sua,<br><em style="color:#7a5416">com menos manutenção.</em></div>
+    <div style="margin-top:44px;font-family:'Playfair Display',serif;font-size:56px;line-height:1.04;letter-spacing:-.01em">Cor que parece sua,<br><em style="color:#7a5416">com menos manutenção.</em></div>
     <div style="margin-top:26px;font-size:20px;font-weight:300;line-height:1.45;color:#625649">Mechas, mega hair e correção de cor em Maringá.<br>Há 8 anos na beleza. Agende pelo WhatsApp.</div>
     <div style="margin-top:28px;display:flex;align-items:center;gap:12px;font-size:12px;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:#7a5416"><span style="display:inline-block;width:24px;height:1px;background:${GOLD}"></span> Nota 5 no Google</div>
   </div>

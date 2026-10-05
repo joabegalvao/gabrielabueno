@@ -37,12 +37,12 @@ Na página, só pontuação e espaços foram ajustados ("pela Gab há 03 anos", 
 | Proposta de valor | Cor com cara de natural e menos manutenção: mechas, mega hair e correção de cor por uma colorista com 8 anos de área e salão próprio |
 | Principal objeção | "Vai ficar artificial, vai estragar meu cabelo ou vou ter que retocar toda hora" |
 | Conversão prioritária | Agendar pelo WhatsApp (mensagens por assunto: horário, avaliação, cursos) |
-| Direção visual | Editorial de beleza com as cores do próprio salão (marfim, taupe, dourado do monograma, marrom profundo); Bodoni Moda + Jost |
+| Direção visual | Editorial de beleza com as cores do próprio salão (marfim, taupe, dourado do monograma, marrom profundo); Playfair Display + Jost |
 
 ## Direção visual
 
 - **Cores**: dourado `#a07127` medido no monograma (molduras, estrelas, detalhes; `#7a5416` para texto sobre claro, AA), marfim `#f7f3ed` e taupe das paredes e poltronas do salão, marrom profundo `#2b2420` para cabeçalho, seção do salão, fecho e rodapé, `#ecd6b0` para o monograma e destaques sobre o marrom.
-- **Fontes**: **Bodoni Moda** nos títulos (serifa de alto contraste, como capa de revista; itálico para a segunda parte dos títulos) e **Jost** no texto e nos rótulos em caixa alta espaçada (geométrica, como o "GABRIELA BUENO HAIR COLORIST" do logo). Arquivos locais em `assets/fonts`, subconjunto latino.
+- **Fontes**: **Playfair Display** nos títulos (serifa de contraste, com traços finos firmes o bastante para ler em corpo grande; itálico na segunda parte dos títulos). A Bodoni Moda foi a primeira escolha e saiu no mesmo dia: o cliente achou difícil de ler e **Jost** no texto e nos rótulos em caixa alta espaçada (geométrica, como o "GABRIELA BUENO HAIR COLORIST" do logo). Arquivos locais em `assets/fonts`, subconjunto latino.
 - **Composição**: hero como **página dupla de revista**: título atravessa a largura toda e, embaixo, texto à esquerda com duas fotos em molduras douradas finas, a segunda deslocada para baixo. Molduras de filete dourado em todas as fotos. Nada de sombra, degradê ou efeito de vidro.
 - **Logo**: o monograma veio sobre branco (1254 px); o script separa o traço do fundo pela luminosidade e gera versões dourada e clara com transparência, usadas no cabeçalho (ao lado do nome em Bodoni), no fecho, no rodapé e nos ícones. O nome por extenso não veio como imagem, por isso é texto.
 
@@ -104,7 +104,7 @@ Todas vêm de `materiais-de-origem/` e são geradas por `tools/optimize-images.p
 index.html
 assets/css/styles.css
 assets/js/main.js
-assets/fonts/      Bodoni Moda e Jost (woff2, subconjunto latino)
+assets/fonts/      Playfair Display e Jost (woff2, subconjunto latino)
 assets/img/        imagens otimizadas (geradas)
 tools/optimize-images.py
 tools/render-compartilhamento.js
